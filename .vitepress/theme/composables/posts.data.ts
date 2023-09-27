@@ -18,7 +18,7 @@ export default createContentLoader('blog/posts/*.md', {
   transform(raw): Post[] {
     return raw
       .map(({ url, frontmatter, excerpt }) => ({
-        url,
+        url: `/sabina_blog${url}`,
         excerpt,
         author: frontmatter.author,
         date: {
