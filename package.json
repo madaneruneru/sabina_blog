@@ -1,10 +1,21 @@
 {
+  "name": "vitepress-test",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
   "devDependencies": {
-    "vitepress": "^1.0.0-rc.20"
+    "@types/node": "^20.6.2",
+    "typescript": "^5.2.2",
+    "vite": "^4.4.9",
+    "vitepress": "^1.0.0-rc.14"
   },
   "scripts": {
-    "docs:dev": "vitepress dev",
-    "docs:build": "vitepress build",
-    "docs:preview": "vitepress preview"
+    "dev": "vitepress dev",
+    "build": "vitepress build",
+    "preview": "vitepress preview"
+  },
+  "dependencies": {
+    "unocss": "^0.55.7",
+    "vue": "^3.3.4"
   }
 }
