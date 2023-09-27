@@ -7,6 +7,7 @@ export default defineConfig({
   lang: 'zh-TW',
   title: 'Sabina·Note',
   description: '莎賓娜的學習筆記',
+  base: '/sabina_blog/',
   head: [['link', { rel: 'icon', href: '/q版老爹.jpg' }]],
   cleanUrls: true,
   markdown: { lineNumbers: true },
