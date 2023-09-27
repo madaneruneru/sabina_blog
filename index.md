@@ -5,14 +5,14 @@ layout: home
 hero:
   name: "莎賓娜學習總匯三明治"
   text: "Sabina·Note"
-  tagline: My great project tagline
+  tagline: 現在不會 != 以後不會
   actions:
     - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
+      text: 開始閱讀
+      link: /blog/index.md
     - theme: alt
-      text: API Examples
-      link: /api-examples
+      text: 2019 鐵人賽 - 學習資料結構30天系列
+      link: https://ithelp.ithome.com.tw/users/20112438/ironman/2106
 
 features:
   - title: Feature A
